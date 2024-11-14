@@ -1,11 +1,12 @@
 body
 {
-    background-color: aquamarine;
+    background-color: rgb(234, 237, 236);
 }
 ul li{
   list-style: none;
   display: inline;
   padding: 20px;
+  padding-top: 10px;
 }
 li:hover
 {
@@ -16,15 +17,18 @@ li:hover
     display: grid;
     height: 300px;
     /* width: 900px; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* grid-template-columns: auto auto auto; */
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(6,1fr);
     gap: 2px;
+    /* align-items: center; */
+    /* display: flex;
+    justify-content: space-between; */
     
 }
 .row1,.row2,.row3{
-    border: 1px dotted black;
+    /* border: 1px dotted black; */
 }
 .row1 {
     grid-column-start: 1;
@@ -61,9 +65,10 @@ grid-column: 1/2;
   } */
    .row11,.row12,.row13,.row14,.row14,.row15,.row16
    {
+   
     height: 70px;
     width: 300px;
-    align-items: center;
+    
     /* border: 1px solid red; */
    }
 
@@ -74,7 +79,7 @@ grid-column: 1/2;
     background-color: rgb(15, 15, 17);
     color: antiquewhite;
     height: 70px;
-    border: 1px dotted red;
+    /* border: 1px dotted red; */
   }
   .row3
   {
@@ -82,7 +87,7 @@ grid-column: 1/2;
     grid-row: 3/4;
     height: 200px;
     background-color: brown;
-    border: 2px dotted red;
+    /* border: 2px dotted red; */
   }
   .row4
   {
@@ -90,7 +95,7 @@ grid-column: 1/2;
     grid-row: 4/5;
     height: 400px;
     background-color: rgb(5, 102, 186);
-    border: 1px solid cornflowerblue;
+    /* border: 1px solid cornflowerblue; */
     display: flex;
     justify-content: space-around;
     align-items: center;
