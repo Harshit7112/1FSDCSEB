@@ -1,9 +1,10 @@
 .icard
 {
-    background-color: aquamarine;
+    background-color: rgb(31, 189, 136);
     height: 300px;
-    border: 2px solid red;
+    border: 2px solid rgb(74, 66, 66);
     width: 300px;
     margin: 70px;
+    
 
 }
