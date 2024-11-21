@@ -2,6 +2,8 @@ import React from 'react'
 import Student from './Student';
 // import UseStudentState from './UseStudentState';
 import Imagemanipulation from './Imagemanipulation';
+import MyUseEffect from './MyUseEffect';
+import UseFetchAPI from './UseFetchAPI';
 function App()
 {
   const h1=<h1>hello world</h1>;
@@ -35,7 +37,9 @@ function App()
   return (
     <div ><h2>hello using use statement</h2>
     {/* <div><UseStudentState /></div> */}
-    <Imagemanipulation></Imagemanipulation>
+    {/* <Imagemanipulation></Imagemanipulation> */}
+    {/* <MyUseEffect /> */}
+    <UseFetchAPI />
     </div>
     
 
