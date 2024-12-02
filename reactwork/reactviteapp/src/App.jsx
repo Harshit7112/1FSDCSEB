@@ -4,6 +4,8 @@ import Student from './Student';
 import Imagemanipulation from './Imagemanipulation';
 import MyUseEffect from './MyUseEffect';
 import UseFetchAPI from './UseFetchAPI';
+import Login from './Login';
+import Registration from './Registration';
 function App()
 {
   const h1=<h1>hello world</h1>;
@@ -39,7 +41,10 @@ function App()
     {/* <div><UseStudentState /></div> */}
     {/* <Imagemanipulation></Imagemanipulation> */}
     {/* <MyUseEffect /> */}
-    <UseFetchAPI />
+    {/* <UseFetchAPI /> */}
+    {/* { <Login />} */}
+
+    {<Registration />}
     </div>
     
 
